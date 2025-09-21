@@ -1,5 +1,3 @@
-import fetch from 'node-fetch';
-
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const REPO_OWNER = '3dgraphicstp';
 const REPO_NAME = 'LOGGER';
