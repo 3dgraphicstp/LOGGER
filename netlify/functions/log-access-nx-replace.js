@@ -75,7 +75,7 @@ export async function handler(event) {
       }
       else {
         statusCode: 200,
-        body: JSON.stringify({ status: 'no', logged: logLine })      
+        body: JSON.stringify({ status: 'low', logged: logLine })      
       }
 
     };
